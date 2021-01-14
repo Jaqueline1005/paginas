@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+#todo {
+	height:auto;
+	width: 900px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+#cabeza {
+	background-color:#CCF;
+	height: 100px;
+	width: 900px;
+}
+
+#menu {
+	height: 500px;
+	width:500px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.caption{
+	width:125px;
+	height:30px;
+	background:#000;
+	color:#fff;
+		
+	/* fix it at the bottom */
+	position:absolute;
+	bottom:-1px; /* fix IE issue */
+	left:0;
+
+	/* hide it by default */
+	display:none;
+
+	/* opacity setting */
+	filter:alpha(opacity=70);    /* ie  */
+	-moz-opacity:0.7;    /* old mozilla browser like netscape  */
+	-khtml-opacity: 0.7;    /* for really really old safari */  
+	opacity: 0.7;    /* css standard, currently it works in most modern browsers like firefox,  */
+}
+.item{
+	height:125px;
+	width:125px;
+	margin-top:5px;
+	margin-left:none;
+	margin-right:5px;
+	overflow: hidden;
+	position:relative;
+	float:left;
+	border:1px solid #000;
+}
+
+img{
+	height:125px;
+	width:125px;
+	border:0px;
+	positition:absolute;
+}
+
+h2{
+	text-align: center;
+	font-family: "Lucida Handwriting";
+
+}
+
+#pie{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+	font-family: "Lucida Handwriting";
+	background-color: #FFF;
+	background-color: #9F9;
+}
+
+
+
